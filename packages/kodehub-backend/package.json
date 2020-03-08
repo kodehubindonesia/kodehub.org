@@ -1,5 +1,5 @@
 {
-  "name": "gql-express",
+  "name": "kodehub-backend",
   "version": "1.0.0",
   "description": "",
   "main": "src/app/server.js",
