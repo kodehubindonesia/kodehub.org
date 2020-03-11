@@ -54,3 +54,20 @@ File configs is located on `packages/kodehub-backend/src/app/configs.js`
 ### [kodehub-frontend]
 
 - App port default: 3000
+
+## TODO
+**Backend**
+- [ ] CI (wip)
+- [ ] Bookmark & testing
+- [ ] Post & testing
+- [ ] Post Comment & testing
+- [ ] Post Reactions & testing (Like, Bookmark)
+- [ ] Post Tags
+- [ ] User Connections (User follower & following)
+- [ ] User Following tag
+- [ ] User Projects
+- [ ] User Points
+- [ ] User Badges
+**Frontend**
+- [ ] Add server express / polka
+- [ ] CI
