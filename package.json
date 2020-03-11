@@ -22,5 +22,9 @@
   "dependencies": {
     "@emotion/styled": "^10.0.27",
     "concurrently": "^5.1.0"
+  },
+  "_moduleAliases": {
+    "@components": "./src/shared/components",
+    "@assets": "./src/shared/assets"
   }
 }
