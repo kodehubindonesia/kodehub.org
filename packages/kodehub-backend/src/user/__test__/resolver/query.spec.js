@@ -28,7 +28,8 @@ describe('getUsersResolver', () => {
       username: 'superuser',
       email: 'super@gmail.com',
       role: 'USER',
-      password: 'superpassword'
+      password: 'superpassword',
+      fullName: 'super user'
     };
 
     const _doc2 = {
@@ -36,7 +37,8 @@ describe('getUsersResolver', () => {
       username: 'newsuperuser',
       email: 'newsuper@gmail.com',
       role: 'USER',
-      password: 'newsuperpassword'
+      password: 'newsuperpassword',
+      fullName: 'super user2'
     };
 
     const user1 = new User(_doc1);
@@ -64,7 +66,8 @@ describe('getUserResolver', () => {
       username: 'superuser',
       email: 'super@gmail.com',
       role: 'USER',
-      password: 'superpassword'
+      password: 'superpassword',
+      fullName: 'super user'
     };
 
     const user1 = new User(_doc1);
@@ -87,7 +90,8 @@ describe('getUserResolver', () => {
       username: 'superuser',
       email: 'super@gmail.com',
       role: 'USER',
-      password: 'superpassword'
+      password: 'superpassword',
+      fullName: 'super user1'
     };
 
     const user1 = new User(_doc1);
@@ -121,7 +125,8 @@ describe('myProfileResolver', () => {
       username: 'superuser',
       email: 'super@gmail.com',
       role: 'USER',
-      password: 'superpassword'
+      password: 'superpassword',
+      fullName: 'super user'
     };
 
     const user1 = new User(_doc1);

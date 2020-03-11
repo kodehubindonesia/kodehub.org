@@ -77,9 +77,6 @@
     "coverageReporters": [
       "lcov",
       "html"
-    ],
-    "moduleNameMapper": {
-      "^mongoose$": "<rootDir>/../../node_modules/mongoose"
-    }
+    ]
   }
 }

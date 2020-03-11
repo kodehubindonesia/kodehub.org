@@ -27,7 +27,8 @@ describe('updateUserResolver', () => {
       username: 'superuser',
       email: 'super@gmail.com',
       role: 'USER',
-      password: 'superpassword'
+      password: 'superpassword',
+      fullName: 'super user'
     };
 
     const user = new User(_doc);
@@ -55,7 +56,8 @@ describe('updateUserResolver', () => {
       username: 'superuser',
       email: 'super@gmail.com',
       role: 'USER',
-      password: 'superpassword'
+      password: 'superpassword',
+      fullName: 'super user'
     };
 
     const user = new User(_doc);
@@ -94,7 +96,8 @@ describe('updateUserResolver', () => {
       username: 'superuser',
       email: 'super@gmail.com',
       role: 'USER',
-      password: 'superpassword'
+      password: 'superpassword',
+      fullName: 'super user'
     };
 
     const user = new User(_doc);
@@ -105,7 +108,8 @@ describe('updateUserResolver', () => {
       id: '507f191e810c19729de860ea',
       username: 'superadmin',
       email: 'superadmin@gmail.com',
-      password: 'newPassword123'
+      password: 'newPassword123',
+      fullName: 'super user'
     };
 
     await updateUserResolver({}, { input: _updates }, { models: { User } });
@@ -125,7 +129,8 @@ describe('deleteUserResolver', () => {
       username: 'superuser',
       email: 'super@gmail.com',
       role: 'USER',
-      password: 'superpassword'
+      password: 'superpassword',
+      fullName: 'super user'
     };
     const user = new User(_doc);
     await user.save();
@@ -148,7 +153,8 @@ describe('deleteUserResolver', () => {
       username: 'superuser',
       email: 'super@gmail.com',
       role: 'USER',
-      password: 'superpassword'
+      password: 'superpassword',
+      fullName: 'super user'
     };
     const user = new User(_doc);
     await user.save();
