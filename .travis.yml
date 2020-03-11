@@ -9,5 +9,7 @@ script:
 deploy:
   provider: heroku
   api_key: $HEROKU_API_KEY
-  app:
-    release:be: $HEROKU_APP_NAME
+  app: $HEROKU_APP_NAME
+branches:
+  only:
+    - release:be
