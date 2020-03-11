@@ -13,4 +13,4 @@ deploy:
 # safelist
 branches:
   only:
-    - release:be
+    - release-be
