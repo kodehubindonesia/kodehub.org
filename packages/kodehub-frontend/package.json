@@ -7,7 +7,7 @@
     "build:server": "cross-env NODE_ENV=production tsc --project tsconfig.server.json",
     "build:next": "cross-env NODE_ENV=production next build",
     "build": "npm run build:next && npm run build:server",
-    "start": "cross-env NODE_ENV=production PORT=3003 node dist/server.js",
+    "start": "cross-env NODE_ENV=production node dist/server.js",
     "test": "echo \"no test specified\" && exit 0"
   },
   "dependencies": {
