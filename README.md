@@ -1,3 +1,7 @@
+# Kodehub.org
+
+![Node.js CI](https://github.com/kodehubindonesia/kodehub.org/workflows/Node.js%20CI/badge.svg?branch=master)
+
 ## Tools
 
 - yarn: NPM client.
@@ -56,8 +60,10 @@ File configs is located on `packages/kodehub-backend/src/app/configs.js`
 - App port default: 3000
 
 ## TODO
+
 **Backend**
-- [ ] CI (wip)
+
+- [x] CI
 - [ ] Bookmark & testing
 - [ ] Post & testing
 - [ ] Post Comment & testing
@@ -68,6 +74,8 @@ File configs is located on `packages/kodehub-backend/src/app/configs.js`
 - [ ] User Projects
 - [ ] User Points
 - [ ] User Badges
+
 **Frontend**
+
 - [ ] Add server express / polka
-- [ ] CI
+- [x] CI

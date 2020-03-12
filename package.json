@@ -9,6 +9,7 @@
     "build": "npx lerna run build",
     "test": "npx lerna run test",
     "start": "npx lerna run start",
+    "heroku-prebuild": "npm test --prefix packages/kodehub-frontend",
     "kodehub-backend": "yarn workspace kodehub-backend dev",
     "kodehub-backend-test": "yarn workspace kodehub-backend test",
     "kodehub-frontend": "yarn workspace kodehub-frontend dev",
